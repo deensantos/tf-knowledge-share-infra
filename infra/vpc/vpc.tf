@@ -50,7 +50,7 @@ resource "aws_subnet" "data_b" {
   cidr_block = "10.0.4.0/24"
   availability_zone = "us-east-1b"
   tags = {
-    Name = "snet-prod-use1-data-a"
+    Name = "snet-prod-use1-data-b"
   }
 }
 
